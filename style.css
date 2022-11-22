@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+  }
+  form {
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
+  button {
+    margin-top: 5px;
+  }
+  #floatingInput,
+  #floatingInput2 {
+    width: 25%;
+  }
+
+  .aff {
+    padding-top: 15px;
+    width: 30%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(43, 43, 48);
+  }
+
+  .para {
+    font-size: larger;
+    color: aliceblue;
+
+    width: 50%;
+    margin: 8px auto;
+  }
+
+  .arc:before {
+    -webkit-animation: spin 0.5s infinite linear;
+    animation: spin 0.5s infinite linear;
+    border-radius: 100%;
+    border-top: 6px solid var(--primary, #fff);
+    content: "";
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
